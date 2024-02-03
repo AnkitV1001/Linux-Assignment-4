@@ -116,10 +116,6 @@ mv document.txt Documents
 
 ## 9. Create a new text file named "my_notes.txt" using the touch command. Open the file in the Vim editor, add some text, and save the changes.
 
-For making file we use **touch** command.
-<br>
-For copy the file we use **cp (copy)** command.
-<br>
 ```
 vim my_notes.txt
 ```
@@ -129,10 +125,6 @@ vim my_notes.txt
 
 ## 10. Run the date command and store the output in a variable named "current_date." Display the value of the variable and append it to the "my_notes.txt" file.
 
-For making file we use **touch** command.
-<br>
-For copy the file we use **cp (copy)** command.
-<br>
 ```
 current_date=$(date)
 echo $current_date
@@ -141,16 +133,4 @@ cat my_notes.txt
 ```
 ![image](https://i.postimg.cc/BQZpk7rt/10.png)
 
-## 11. Edit the Bash startup script (e.g., .bashrc) to set an environment variable named "CUSTOM_PATH" to a specific directory path. Ensure the variable is available in new shell sessions.
 
-For making file we use **touch** command.
-<br>
-For copy the file we use **cp (copy)** command.
-<br>
-```
-touch document.txt
-cp document.txt MyFiles
-mkdir Documents
-mv document.txt Documents
-```
-![image](https://i.postimg.cc/DfM6LNNn/2.png)
